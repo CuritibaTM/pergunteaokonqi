@@ -1,0 +1,48 @@
+/* Todas essas variáveis são culpa do Leo porque ele quer mudar o tema do site. */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+:root {
+    --bg-color: #002b36;
+    --input-color: #073642;
+    --border-color: gray;
+    --font-color: #eee8d5;
+    --button-color: #3661ed;
+}
+
+* {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: var(--bg-color);
+    color: var(--font-color);
+    font-family: 'Roboto Mono', monospace;
+    font-size: 16px;
+    text-align: center;
+}
+
+button {
+  background-color: var(--button-color);
+  border: none;
+  border-radius: 4px;
+  display: flex;
+  align-content: center;
+  padding: 15px 200px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 425px;
+  cursor: pointer;
+    
+}
+input {
+  border: 2px solid;
+  border-radius: 4px;
+  color: var(--font-color);
+  border-color: var(--border-color);
+  background-color: var(--input-color);
+  font-size: 1rem;
+  margin: 0.25rem ;
+  min-width: 125px;
+  padding: 0.5rem;
+  transition: background-color 0.5s ease-out;
+}
