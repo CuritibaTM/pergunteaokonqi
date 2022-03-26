@@ -8,7 +8,9 @@
     --button-color: #3661ed;
 }
 
+
 * {
+	margin-top: 2px;
     align-items: center;
     display: flex;
     justify-content: center;
@@ -26,11 +28,11 @@ button {
   border-radius: 4px;
   display: flex;
   align-content: center;
-  padding: 15px 200px;
+  padding: 10px 150px;
   text-align: center;
   text-decoration: none;
   font-size: 16px;
-  margin: 4px 425px;
+  margin: 4px 0px 0px;
   cursor: pointer;
     
 }
