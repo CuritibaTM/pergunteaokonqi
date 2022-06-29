@@ -9,17 +9,19 @@
     <meta content="https://redsonbr140.gitlab.io/pergunteaokonqi" property="og:url" />
     <meta content="#FF00FF" data-react-helmet="true" name="theme-color" />
     <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="index.js"></script>
   </head>
   <body>
-	<a href="https://github.com/RedsonBr140/pergunteaokonqi"><p>Source here</a></p>
-    <img src="https://community.kde.org/images.community/thumb/4/40/Mascot_konqi.png/400px-Mascot_konqi.png" style="width:200px">
+    <h1>Pergunte ao Konqi!</h1>
+    <p tabindex="1"><a href="https://github.com/RedsonBr140/pergunteaokonqi">Source here</a></p>
+    <img src="https://community.kde.org/images.community/thumb/4/40/Mascot_konqi.png/400px-Mascot_konqi.png" id="konqi">
     <div id="content">
-    <input type="text" id="InputOne"> vs 
-    <input type="text" id="InputTwo">
-    <button type="button" onclick="getInputValue();">Adivinhar</button>
+    <input tabindex="1" type="text" id="InputOne">
+    <span id="vs">vs</span>
+    <input tabindex="1" type="text" id="InputTwo">
+    <button tabindex="1" type="button" onclick="getInputValue()">Adivinhar</button>
     </div>
     <p id="konqidiz">
     <p id="resultado"></p>
-    <script src="index.js"></script>
   </body>
 </html>
