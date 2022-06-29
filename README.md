@@ -1,7 +1,7 @@
 <h1 align=center>Pergunte ao Konqi</h1>
 <p align=center>Simplesmente pergunte ao Konqi, o mascote do KDE!</p>
 <p align=center>
-  <a href="https://konqi.redsonbr140.tk"><img align="center" src="https://img.shields.io/badge/url-konqi.redsonbr140.tk-informational" alt="URL Badge"/></a>
+  <a href="https://curitibatm.github.io/pergunteaokonqi/"><img align="center" src="https://img.shields.io/badge/url-konqi.redsonbr140.tk-informational" alt="URL Badge"/></a>
 </p>
 
 ## Sobre
