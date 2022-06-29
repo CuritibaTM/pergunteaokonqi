@@ -60,7 +60,6 @@ button:hover, input:hover {
 }
 button:active {
     background: var(--button-color-active);
-    box-shadow: none;
 }
 input {
     background-color: var(--input-color);
